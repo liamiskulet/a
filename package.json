@@ -1,9 +1,9 @@
 {
-  "name": "a",
-  "version": "1.0.2",
+  "name": "soundcloudwabdolrafay",
+  "version": "1.0.3",
   "main": "index.html",
   "files": [
     "index.html",
-    "song.mp3"
+    "luminous.mp3"
   ]
 }
