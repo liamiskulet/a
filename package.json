@@ -1,9 +1,8 @@
 {
-  "name": "luminous-audio-test-123",
-  "version": "1.0.8",
+  "name": "AIRAFAY",
+  "version": "1.0.1",
   "main": "index.html",
   "files": [
-    "index.html",
-    "luminous.mp3"
+    "index.html"
   ]
 }
