@@ -2,15 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Now Playing: Luminous</title>
-    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Now Playing: Matadora</title>
+    <style>
+        body {
+            background: #121212;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Interstate, Lucida Grande, sans-serif;
+        }
+        .container {
+            width: 100%;
+            max-width: 500px;
+            padding: 20px;
+        }
+        .footer-text {
+            font-size: 10px;
+            color: #cccccc;
+            margin-top: 5px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        a { color: #cccccc; text-decoration: none; }
+    </style>
+</head>
 <body>
-    <div class="player-card">
-        <h2>Luminous</h2>
-        <p>AiNA THE END</p>
-        <audio controls>
-            <source src="assets/luminous.mp3" type="audio/mpeg">
-        </audio>
+
+<div class="container">
+    <iframe 
+        width="100%" 
+        height="300" 
+        scrolling="no" 
+        frameborder="no" 
+        allow="autoplay" 
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2173011027&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+    </iframe>
+
+    <div class="footer-text">
+        <a href="https://soundcloud.com/djasul" target="_blank">DJ Asul</a> 
+        · 
+        <a href="https://soundcloud.com/djasul/matadora-slowed" target="_blank">MATADORA (Slowed)</a>
     </div>
+</div>
+
 </body>
 </html>
